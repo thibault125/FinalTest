@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Le contenu principal occupe l’espace disponible */
+}
+
+footer {
+    position: relative; /* Le footer n'est pas fixe, il suit le flux normal */
+}
